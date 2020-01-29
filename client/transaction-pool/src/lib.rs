@@ -21,6 +21,7 @@
 
 mod api;
 pub mod error;
+mod revalidation;
 
 #[cfg(any(feature = "test-helpers", test))]
 pub mod testing;
